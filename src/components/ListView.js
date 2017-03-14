@@ -22,10 +22,6 @@ class ListView extends Component {
     };
     return(
       <View>
-
-
-
-
       <TouchableHighlight onPress={() => this._handleNextPress(RestaurantRoute)}>
         <Text style={{marginTop: 300, alignSelf: 'center'}}>
           {/* See you on the other nav {this.props.myProp}! */}
@@ -36,6 +32,9 @@ class ListView extends Component {
     );
   }
 }
+
+
+
 
 
 export default ListView;

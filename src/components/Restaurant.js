@@ -11,6 +11,13 @@ class Restaurant extends Component {
         <Text style={{fontSize: 30, paddingTop: 100 }}>
           This is the RESATURANT component
         </Text>
+        <Card style={{width: 50}}>
+        <CardSection>
+            <Text>
+              hey!
+            </Text>
+        </CardSection>
+      </Card>
 
     </View>
     );

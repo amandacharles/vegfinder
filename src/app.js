@@ -5,6 +5,8 @@ import LoginForm from './components/LoginForm';
 import Main from './components/Main'
 
 class App extends Component {
+
+
   render() {
     return (
       <NavigatorIOS
